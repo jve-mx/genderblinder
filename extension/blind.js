@@ -8,6 +8,7 @@ var pronounSets = { /* more: https://en.wikipedia.org/wiki/Third-person_pronoun#
    'f': ['they', 'them', 'their', 'theirs', 'themselves'],
    'g': ['ve', 'ver', 'vis', 'vers', 'verself'],
    'h': ['zie', 'zim', 'zir', 'zirs', 'zirself']
+   'i': ['fae', 'faer', 'faer', 'faers', 'faerself']
 };
 
 
@@ -45,8 +46,8 @@ addNoun('daddy,daddies', 'parent');
 addNoun('father', 'parent');
 addNoun('girl', 'child');
 addNoun('boy', 'child');
-addNoun('girlfriend', 'friend');
-addNoun('boyfriend', 'friend');
+addNoun('girlfriend', 'datefriend');
+addNoun('boyfriend', 'datefriend');
 
 var substitutions = null;
 var subsRegex = null;
